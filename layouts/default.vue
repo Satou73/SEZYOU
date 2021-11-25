@@ -58,7 +58,6 @@
       <div>2021/4J-7group</div>
     </v-footer>
   </v-app>
-  
 </template>
 
 <script>
@@ -79,6 +78,9 @@ export default {
 
 
 <style>
+div{
+  white-space: pre-line;
+}
 .bg{
   background-image: url("~@/assets/email-pattern.png");
     background-repeat: no-repeat;
@@ -89,5 +91,12 @@ export default {
 .grey{
   color:dimgrey;
 }
+.text{
+  margin:0 0 0 10px;
+  padding:0;
+  line-height: 5em;
+}
+
+
 
 </style>
