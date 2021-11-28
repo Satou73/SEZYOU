@@ -1,9 +1,8 @@
 <template>
- <v-app>
   <v-card
     max-width="400"
     class="mx-auto">
-    <v-container fluid fill-height>   
+    <v-container fluid>   
       <v-row dense>
         <v-col cols="12">
           <v-card
@@ -20,14 +19,16 @@
 
         <v-col cols="12">
           <v-card
-          color="#ffffff">
-           
+          color="#E4F9F5">
+               <v-img :src="require('@/assets/ichinoseki-kosen.jpg')"
+               height="auto"
+               width="auto">
+               </v-img>
           </v-card>
         </v-col>
 
 
         <v-col cols="6">
-          <v-list-item-component></v-list-item-component>
           <v-card
             color="#ff4500"
           　dark>
@@ -44,7 +45,7 @@
           <v-card
            color="#00FF7F"
            light> 
-           <v-card-title>18 武道館 </v-card-title>
+           <v-card-title>17 第二体育館 </v-card-title>
            <v-card-text>
              <v-icon mx-auto size="50">mdi-lock-open</v-icon>
            </v-card-text>
@@ -64,7 +65,7 @@
           <v-card
            color="#00FF7F"
            light> 
-           <v-card-title>18 武道館 </v-card-title>
+           <v-card-title>26 プール </v-card-title>
            <v-card-text>
              <v-icon mx-auto size="50">mdi-lock-open</v-icon>
            </v-card-text>
@@ -73,14 +74,10 @@
       </v-row>
     </v-container>
   </v-card>
- </v-app>
 </template>
 
 <style>
 
-p.map1 img{
-  width: 400px;
-}
 </style>
 
 <script>

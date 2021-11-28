@@ -22,29 +22,14 @@
             color="#30E3CA"
             light>
               <v-card-title>
-                利用方法 
-                ①左上のタブから階層を選択する。
-                ②表示されている地図から知りたい場所の番号を調べる。
-                ③下にスライドして番号の場所の施錠状況が分かる。
+                My 施錠管理
               </v-card-title>
               <v-card-text>
-                ※下に地図と施錠状況の例がある。
-                <v-icon >mdi-arrow-down-bold</v-icon><v-icon >mdi-arrow-down-bold</v-icon><v-icon >mdi-arrow-down-bold</v-icon>
               </v-card-text>
             </v-card>
         </v-col>
 
-        <v-col cols="12">
-          <v-card
-          color="#ffffff">
-            <v-card>
-               <v-img :src="require('@/assets/ichinoseki-kosen.jpg')"
-               height="300"
-               width="500">
-               </v-img>
-            </v-card>
-          </v-card>
-        </v-col>
+        
 
         
         <v-col cols="6">
