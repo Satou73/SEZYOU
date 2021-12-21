@@ -4,7 +4,7 @@
     <v-navigation-drawer app v-model="drawer" color="dark">
       <v-list-item>
         <v-list-item-title class="title">
-          menu
+          施錠確認
         </v-list-item-title>
         <v-btn icon>
           <v-icon color="white">mdi-chevron-left</v-icon>
@@ -25,26 +25,10 @@
     <!--ヘッダーー-->
     <v-app-bar app color="dark">
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
-      <v-toolbar-title>施錠管理</v-toolbar-title>
+      <v-toolbar-title>施錠確認</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-items>
-      <v-btn text to="/Login">ログイン</v-btn>
       <v-menu offset-y>
-        <template v-slot:activator="{on}">
-        <v-btn v-on="on" text>日本語</v-btn>
-        </template>
-        <v-list>
-          <v-list-item>
-            <v-list-item-content>
-              <v-list-item-title>日本語</v-list-item-title>
-            </v-list-item-content>
-          </v-list-item>
-          <v-list-item>
-            <v-list-item-content>
-              <v-list-item-title>English</v-list-item-title>
-            </v-list-item-content>
-          </v-list-item>
-        </v-list>
       </v-menu>
       </v-toolbar-items>
     </v-app-bar>
@@ -66,11 +50,15 @@ export default {
   data: () => ({
     drawer: false,
     menus: [
-      { title: 'トップ', icon: 'mdi-web', url: '/Top' },
-      { title: '一関高専1階', icon: 'mdi-numeric-1-box-multiple-outline', url: '/1F' },
-      { title: '一関高専2階', icon: 'mdi-numeric-2-box-multiple-outline', url: '/2F' },
-      { title: '一関高専3階', icon: 'mdi-numeric-3-box-multiple-outline', url: '/3F' },
-      { title: '一関高専4階', icon: 'mdi-numeric-4-box-multiple-outline', url: '/4F' }
+      { title: 'トップ', icon: 'mdi-home', url: '/Top' },
+      { title: 'マップ', icon: 'mdi-map-search-outline', url: '/map' },
+      { title: '校舎外施設', icon: 'mdi-run', url: '/Outside' },
+      { title: '管理・教育棟1F', icon: 'mdi-numeric-1-box-outline', url: '/K1F' },
+      { title: '管理・教育棟2F', icon: 'mdi-numeric-2-box-outline', url: '/K2F' },
+      { title: '管理・教育棟3F', icon: 'mdi-numeric-3-box-outline', url: '/K3F' },
+      { title: '管理・教育棟4F', icon: 'mdi-numeric-4-box-outline', url: '/K4F' },
+      { title: '専攻科棟1F', icon: 'mdi-numeric-1-box-multiple-outline', url: '/S1F' },
+      { title: '専攻科棟2F', icon: 'mdi-numeric-2-box-multiple-outline', url: '/S2F' },
     ]
   })
 }
