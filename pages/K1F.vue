@@ -36,7 +36,7 @@
             color="#ff4500"
             height="160"
           　dark>
-          <v-card-title>第一講義室
+          <v-card-title>第一講義室 a
           </v-card-title>
           <v-card-text>
              <v-icon center size="50">mdi-lock</v-icon>
