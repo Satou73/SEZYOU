@@ -10,33 +10,11 @@
             color="#406882"
             dark>
               <v-card-title>
-                My 施錠確認
+                My 施錠管理
               </v-card-title>
               <v-card-text>
               </v-card-text>
             </v-card>
-        </v-col>
-
-        <v-col cols="6">
-          <v-card
-            color="#ff0000"
-          　dark>
-          <v-card-title>第一体育館</v-card-title>
-          <v-card-text>
-           <v-icon center size="50">mdi-lock</v-icon>
-          </v-card-text>
-          </v-card>
-        </v-col>
-
-        <v-col cols="6">
-          <v-card
-            color="#ff0000"
-          　dark>
-          <v-card-title>第二体育館</v-card-title>
-          <v-card-text>
-             <v-icon center size="50">mdi-lock</v-icon>
-          </v-card-text>
-          </v-card>
         </v-col>
 
         <v-col cols="6">
@@ -66,7 +44,7 @@
           <v-card
             color="#ff0000"
           　dark>
-          <v-card-title>武道館</v-card-title>
+          <v-card-title>第一体育館</v-card-title>
           <v-card-text>
            
              <v-icon center size="50">mdi-lock</v-icon>
@@ -79,7 +57,7 @@
           <v-card
            color="#00FF7F"
            light> 
-           <v-card-title>武道館 </v-card-title>
+           <v-card-title>第一体育館 </v-card-title>
            <v-card-text>
              <v-icon mx-auto size="50">mdi-lock-open</v-icon>
               ※開錠されている。
