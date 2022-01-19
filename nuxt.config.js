@@ -8,6 +8,10 @@ export default {
     host:'0.0.0.0'
   },
 
+  router:{
+    base: '/SEZYOU/'
+  },
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: '%s - SEZYOU',
@@ -22,7 +26,7 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/SEZYOU/favicon.ico' }
     ],
   },
 

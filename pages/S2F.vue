@@ -7,7 +7,7 @@
         <v-col cols="12">
           <v-card
             color="#406882"
-            dark>
+            darkra>
             <v-card-title class="text-h5">
               専攻科棟2F
             </v-card-title>
