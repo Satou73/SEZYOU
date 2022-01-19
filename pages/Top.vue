@@ -72,7 +72,7 @@
               <v-card-title>
                 補足
               </v-card-title>
-              <v-card-text>・専攻科棟3F・4F・5Fはクラス教室しかないため<br>表示していない。<v-spacer></v-spacer><br>・スマホ向けのWebアプリである。
+              <v-card-text>・専攻科棟3F・4F・5Fはクラス教室しかないため<br>表示していない。<v-spacer></v-spacer><br>・スマホ向けのWebアプリである。<v-spacer></v-spacer><br>・設置していない場所は施錠表示されている。
 
               </v-card-text>
             </v-card>
