@@ -11,6 +11,9 @@ export default {
   router:{
     base: '/SEZYOU/'
   },
+  generate: {
+    dir: 'docs'
+  },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
